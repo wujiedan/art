@@ -1,0 +1,120 @@
+html{background:#FFF url(bg_2.png) no-repeat 0 0;/*-webkit-text-size-adjust:none;text-size-adjust:none;*/}
+body,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,p,th,td{padding:0;margin:0;}
+body{color:#333;font:14px/1.6 simsun,Arial,'Microsoft Yahei',Helvetica;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;font-family:'Microsoft Yahei',simsun;}
+ul{list-style:none;}
+a{color:#742;text-decoration:none;}
+a:hover{color:#631;text-decoration:underline;}
+
+a img{border:0 none;}
+
+h1{position:fixed;bottom:0;left:0;text-indent:-9999em;overflow:hidden;height:50px;width:230px;background:#FFF url(logo_lingnan.png) no-repeat center center;}
+* html{background-attachment:fixed;}
+* html h1{position:absolute;top:expression(document.documentElement.scrollTop-50-0*this.offsetHeight+document.documentElement.clientHeight);}
+h3{font-size:16px;}
+.clearfix{zoom:1;}
+.clearfix:after{content:' ';display:block;clear:both;height:0;overflow:hidden;}
+
+.empty{padding:20px;}
+.empty a{display:inline-block;padding:2px 8px;background:#F9951B;color:#FFF;border-radius:3px;}
+
+.wrap{height:600px;}
+.header{height:50px;color:#794b2d;background:#FFF url(bg_0.jpg) no-repeat 0 0;zoom:1;}
+.header h2{padding:8px 0 0 60px;font-size:22px;text-shadow:0 2px 1px #FFF;}
+.header h2 span{font-size:16px;}
+#btn-back{float:right;width:100px;}
+.btn-back{float:right;margin:11px 10px 0;padding:2px 5px;background:#F9951B;color:#FFF;border-radius:3px;}
+.btn-back:hover{background:#F9C52B;color:#FFF;text-decoration:none;}
+
+.box-nav{float:left;width:210px;padding:0 0 0 10px;_position:relative;}
+.nav-main{padding:5px 0 10px;_width:100%;_position:absolute;}
+.nav-main a{float:left;width:100%;}
+.nav-main li{padding:8px 0 6px 5px;border-bottom:1px dashed #DDD;cursor:pointer;border-radius:6px;}
+.nav-main li.current,
+.nav-main li:hover{background:#fef1b3;border-bottom:1px solid #FFF;}
+.nav-main li p{margin-top:2px;font-size:12px;color:#666;}
+.nav-main-in{overflow:hidden;}
+.nav-main-in ul{padding:5px;}
+.nav-main-in li,
+.nav-main-in li:hover{padding:0;margin:0;border:0 none;}
+.nav-main li:after,
+.nav-main-in li:after{content:' ';display:block;clear:both;height:0;overflow:hidden;}
+
+.nav-main li.links-li{position:relative;z-index:10;border-bottom:0 none;}
+.nav-main li.links-li:hover,
+.nav-main li .links-div li{background:transparent;}
+.nav-main li .links-div li{border-bottom:0 none;cursor:default;}
+.nav-main li .links-div li a{float:none;}
+.links-div{display:none;position:absolute;bottom:0;right:-220px;width:200px;padding:10px;background:#FFF;border:1px solid #CCC;}
+
+
+.box-main{padding:10px;margin:0 0 0 230px;}
+.main-page .text{padding:5px 0 0;max-width:600px;margin:0 auto;}
+.main-page .text p{text-align:left;text-indent:2em;margin-bottom:0.5em;}
+
+
+.main-page{text-align:center;}
+.main-page a img{border:1px solid #999;}
+
+.catalogue{}
+.catalogue li{float:left;width:120px;display:inline;margin:0 10px 10px 0;height:210px;text-align:center;}
+.catalogue li a.img{display:block;padding:4px;margin:0 auto;width:100px;height:140px;background:#FFF;overflow:hidden;}
+.catalogue li a.img:hover{box-shadow:0 1px 5px rgba(0,0,0,0.8);}
+.catalogue li p{text-align:left;}
+
+
+
+
+.box-pics{}
+.box-pics .box{margin:15px;}
+
+.box-pics .picsBox{text-align:center;/*background:url(lightbox/loading.gif) no-repeat center center;*/}
+.box-pics .picsBox img{margin:0 auto;}
+
+.box-pics .picsNav{padding:0 25px;position:relative;overflow:hidden;}
+.box-pics .picsNav .prev_n,.picsNav .next_n{display:inline;margin-top:10px;}
+.box-pics .picsNav .prev_n{float:left;margin-left:-25px;}
+.box-pics .picsNav .next_n{float:right;margin-right:-25px;}
+.box-pics .picsNav .prev_n span,.picsNav .next_n span{display:block;height:63px;width:20px;background:url(btn.png) no-repeat 0 0;cursor:pointer;}
+.box-pics .picsNav .prev_n span{background-position:0 -63px;}
+.box-pics .picsNav .next_n span{background-position:0 0;}
+.box-pics .picsNav .prev_n span:hover{background-position:-20px -63px;}
+.box-pics .picsNav .next_n span:hover{background-position:-20px 0;}
+
+.box-pics .inNav{position:relative;overflow:hidden;height:86px;}
+.box-pics .inNav ul{position:absolute;height:106px;overflow:hidden;}
+.box-pics .inNav ul li{float:left;display:inline;margin:0 2px;width:86px;height:86px;overflow:hidden;cursor:pointer;text-align:center;}
+.box-pics .inNav ul li div{margin:0 auto;width:80px;height:80px;line-height:80px;font-size:0;*font-size:80px;border:3px solid #FFF;overflow:hidden;cursor:pointer;border-radius:3px;}
+.box-pics .inNav ul li div:before{display:inline-block;width:0;height:100%;margin-right:-1px;content:".";vertical-align:middle;overflow:hidden;}
+.box-pics .inNav ul li.current div{border-color:#f48465;}
+.box-pics .inNav ul li img{width:100%;vertical-align:middle;}
+.picsolo-miniText{display:none;}
+
+.box-pics .textInfo{position:relative;}
+.box-pics .textInfo .arrow{position:absolute;top:144px;left:-39px;z-index:1;width:8px;height:13px;background:url(arrow.png) no-repeat right center;}
+.box-pics .textInfo .textInfoIn{position:absolute;top:130px;left:-245px;max-height:230px;overflow-y:auto;float:left;width:185px;padding:10px;background:#fcf9ee;border:1px solid #CCC;border-radius:6px;}
+.box-pics .textInfo .textInfoIn h3{border-bottom:1px dashed #CCD;padding-bottom:3px;margin-bottom:5px;font-size:14px;}
+.box-pics .textInfo .textInfoIn p{text-indent:2em;line-height:1.8;font-size:12px;}
+
+
+
+.books-pages div{position:relative;margin-bottom:20px;zoom:1;}
+.books-pages div img{display:block;width:100%;box-shadow:0 0 6px #666;}
+.books-pages div a{position:absolute;zoom:1;background:#000;opacity:0;filter:alpha(opacity=0);}
+.books-pages div a:hover{background:#000;opacity:0.1;filter:alpha(opacity=10);}
+
+
+
+
+.floatnav{position:fixed;z-index:20000;top:0;background:#FFF;box-shadow:0 0 5px #000;left:-100%;display:none;}
+* html .floatnav{position:absolute;top:expression(document.documentElement.scrollTop-0*this.offsetHeight);}
+.floatnav .box-nav{padding:0 10px 10px;}
+.floatnav .box-nav .nav-main{_position:static;}
+.floatnav .button{padding:2px 5px;position:absolute;right:-50px;width:40px;text-align:center;background:#FFF;box-shadow:2px 2px 5px -2px #000;cursor:pointer;}
+
+
+
+html.small{background-position:-70px 0;}
+.small .box-nav{width:140px;}
+.small .box-main{margin-left:160px;}
+.small h1{width:160px;background-image:url(logo_lingnan_small.png);}
